@@ -1,0 +1,153 @@
+/* font-family: 'Ubuntu', sans-serif;
+   font-family: 'Montserrat', sans-serif; */
+
+
+body{
+    font-family: Montserrat;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#title{
+    background-color: #4a8cce;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Montserrat-Bold';
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+} 
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 4rem;
+}
+
+.navbar-brand{
+    font-family:ubuntu;
+    font-size: 4rem;
+    font-weight: bold:
+}
+
+.nav-items{
+    
+}
+
+.nav-link{
+    font-family: ubuntu;
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 5% 0% 0%;
+}
+
+
+/* Title image */
+.title-image{
+    transform: rotate(10deg);
+    width: 60%;
+}
+
+.feature-box {
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+}
+
+.feature-box h3{
+    font-family:'Montserrat-Bold';
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.feature-box p {
+    font-family: ubuntu;
+    color: #8c8181;
+}
+
+.icon {
+    padding-bottom: 5%;
+    color: #71aae3;
+}
+
+.icon:hover{
+    color: #4a8cce;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #4a8cce;
+    
+}
+.carousel-item{
+    padding: 3% 30%;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 10px 10px 0px 0px;
+}
+
+#testimonials h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #fff;
+}
+
+#testimonials em{
+    font-family: Ubuntu;
+    color: #fff;
+}
+
+#press{
+    background-color: #4a8cce;
+    text-align: center;
+}
+
+.press-image{
+    width: 10%;
+    padding: 3% 10px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+#pricing h2 {
+    /* font-weight: 110%; */
+}
+
+.pricing-column {
+    padding: 2% 2%;
+    text-align: center;
+}
+
+.card-header {
+    color: white;
+    background-color: #4a8cce;
+    font-weight: bold;
+    font-family: ubuntu;
+    font-size: 3.5rem;
+}
+
+.card-body:hover {
+    color: white;
+    font-family: ubuntu;
+    background-color:#9ab0c7;
+}
